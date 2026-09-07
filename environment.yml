@@ -1,0 +1,19 @@
+name: arizona-porphyry
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - geopandas
+  - rasterio
+  - shapely
+  - pyproj
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - pip
+  - pip:
+    - -r requirements.txt

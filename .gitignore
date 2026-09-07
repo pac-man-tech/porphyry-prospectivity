@@ -1,0 +1,26 @@
+# Don't commit raw or processed large data
+data/raw/
+data/processed/
+data/external/
+
+# Common spatial and archive formats
+*.tif
+*.tiff
+*.shp
+*.dbf
+*.shx
+*.prj
+*.zip
+*.tar
+*.gz
+
+# Large CSVs (allow small derived CSVs)
+*.csv
+
+# Python
+__pycache__/
+.ipynb_checkpoints/
+
+# OS
+Thumbs.db
+.DS_Store
